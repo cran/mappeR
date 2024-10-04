@@ -1,15 +1,15 @@
-72d571003ecbf473a71d3864e913aa05 *DESCRIPTION
+dac0e5aaa0e3a31a2bbb2a58ba444083 *DESCRIPTION
 743a9b643ceec57dd71f8d68a3bc0f59 *LICENSE
 2ecbddd574dbf6dd786db8fa58b0667e *NAMESPACE
-e0349b288328ca2f567462b78ef4e995 *NEWS.md
+48db5ca8025a73baa35b3b086d5fe6f2 *NEWS.md
 4bb4954725f6de0c3d5b4b8a14b051e3 *R/arboretum.R
-f351c2601b8cf8017084cee1d091010f *R/art_studio.R
+d202771b996d193e83ff1d692827f01d *R/art_studio.R
 f372511c664f136dad8e035dd0dd775a *R/cartography_chamber.R
 62cf452903bf560bc9828e58fd25212d *R/mappeR-package.R
 4146a2c6b9b5477d5b7d2ffcf603c5ef *R/quilting_hut.R
-76bb945424382ecadf7554a0bad0438c *R/watering_hole.R
+635b6083437d2fc1d0a54ea3da290cb9 *R/watering_hole.R
 15353df3a2ff12a60e2d40a2d02f0f70 *README.md
-f8cf2e716280b0538e416cb702dfc540 *man/compute_tightness.Rd
+958576e764af2233ca51e0081c3ba9a4 *man/compute_tightness.Rd
 28652bbe3c1a58de8de003b44b2e814d *man/convert_to_clusters.Rd
 9cb8647da131c7cc2e9e5ba971582019 *man/create_1D_mapper_object.Rd
 c20c23fa3b25bf702e10fd07975e0ba0 *man/create_ball_mapper_object.Rd
@@ -44,4 +44,4 @@ b0ebb76aecdeeecb0837e9f741cd9c70 *man/run_slink.Rd
 29c394deda35574be2a29647337547dd *man/subset_dists.Rd
 a86650f105b1b1b201e1d1856ad7ea4d *tests/testthat.R
 4b85f01464ab4f63a8e0058df89b70c1 *tests/testthat/test-binning.R
-c40787a0b3728492ea83ca3d35852901 *tests/testthat/test-covering.R
+4b7eb33bb04f01e8038dd59d7bd4008d *tests/testthat/test-covering.R
