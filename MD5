@@ -1,15 +1,15 @@
-98149ee209dff6ec4188b790566df06b *DESCRIPTION
+1ae832822988159b474b54b1321450ad *DESCRIPTION
 743a9b643ceec57dd71f8d68a3bc0f59 *LICENSE
-f071ba28101d6290edaab32d16f5fc61 *NAMESPACE
-0575d1f3bc4b6962057c13cc36f7c049 *NEWS.md
+d29a614a5cd6d476b4407ff92e07295c *NAMESPACE
+2c401a61b5c8ebf988d101de185e98f0 *NEWS.md
 4bb4954725f6de0c3d5b4b8a14b051e3 *R/arboretum.R
-44babf6604db22e00e15353a2bf9838e *R/art_studio.R
-5e66ba7185e1ae6166a427ab45061e6d *R/cartography_chamber.R
-ad66dc08d8d8298b358b63ffe21133b3 *R/mappeR-package.R
-ca9a0639460a97f1fb8c73b9ad99e4ce *R/quilting_hut.R
+b43d34f05237a19c06799018e3a3bb12 *R/art_studio.R
+238c5d5e36aed89391df0872a278bb45 *R/cartography_chamber.R
+3e8883f6daa5156d46e67ccdc6bb6b68 *R/mappeR-package.R
+8cb8cf60f2aaced2c85d759fe9019cbe *R/quilting_hut.R
 9e594459ca1b4aedfb4858dcd87dc992 *R/viewmaster-hub.R
 c9ca053e8e2480d674ae313f6678e46a *R/watering_hole.R
-ab2d5133a9337d151e0a030cfa06f97f *README.md
+212e739fc552de36423c60382f6a1333 *README.md
 78470a3a01682f15b382adc10edef269 *man/check_in_interval.Rd
 958576e764af2233ca51e0081c3ba9a4 *man/compute_tightness.Rd
 28652bbe3c1a58de8de003b44b2e814d *man/convert_to_clusters.Rd
@@ -22,7 +22,6 @@ e75629980ba5c927a9131de539a8a6c9 *man/create_clusterball_mapper_object.Rd
 6a159e9928c4f3233221cacbb2626bd8 *man/create_single_bin.Rd
 4ee8af9560b67dc62ea0adbb8bc8646f *man/create_width_balanced_cover.Rd
 bd8ce0b15bcbb099a7082515f8a93c50 *man/cut_dendrogram.Rd
-a4ecd81ab3d16485f3614c558b489581 *man/cymapper.Rd
 212abdebd679145be89ab9ac7646d24c *man/eccentricity_filter.Rd
 b7e5b4070b626de32d20b41cd1b5dde2 *man/figures/1dmappercircle.png
 e023912baaffaa80ddcd582c83684732 *man/figures/ballmappercircle.png
@@ -50,4 +49,4 @@ a86650f105b1b1b201e1d1856ad7ea4d *tests/testthat.R
 0158c47b03313eb04edff44f6663cb6d *tests/testthat/test-binning.R
 1f1dec82ca77026a4be4e312bfe8319e *tests/testthat/test-covering.R
 a60cbb92f8784a11d9317b389efd5330 *tests/testthat/test-igraph.R
-ddef4dade2f99deb658764e6125a321f *tests/testthat/test-inputs.R
+60b2dec6182cd23c50080ff750e028d6 *tests/testthat/test-inputs.R
