@@ -1,12 +1,12 @@
-dbee196659ceb80d676c0da00348d1d0 *DESCRIPTION
+89dd1ee2e9ad49f72d1c96751ea760bf *DESCRIPTION
 e21f7e287985fd7fdb334c1a8a21105d *LICENSE
 b05b1a84d3f8d05240619bb8c83f6038 *NAMESPACE
-b5250e5a477acd24ee429da2de47a8fe *NEWS.md
+f896d76d55ab5f08258a2ba52ad60340 *NEWS.md
 cd15c83ed96e7e1ae2f18302e0ee7452 *R/art_studio.R
 62d6a1753258a8c92f977da05e768639 *R/baskin_robbins.R
 3350bd0e737d4b29d2a95a5b75cc617a *R/cartography_chamber.R
 f2dc35213a518e8827bf08f1b6e47194 *R/cluster_factory.R
-68221f6436fb0b646c93fd8de7a1bbdc *R/clusterer_farm.R
+9cd63f490faeb0cf229507521dda4af2 *R/clusterer_farm.R
 b53c8876db0e5d26b09c4852833a91f5 *R/mappeR-package.R
 fab17f26f4d209309757452f86c6d8cd *R/quilting_hut.R
 9171cc2c63714e5d706cbd3e0bc04fc3 *R/viewmaster-library.R
