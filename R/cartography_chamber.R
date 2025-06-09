@@ -15,7 +15,22 @@
 #' @param cover_element_tests A list of membership test functions for a set of cover elements. In other words, each element of `cover_element_tests` is a function that returns `TRUE` or `FALSE` when given a filter value.
 #' @param clusterer A function which accepts a list of distance matrices as input, and returns the results of clustering done on each distance matrix. Defaults to `NULL`, meaning no all data in each bin will be lumped into a single cluster.
 #'
-#' @return A list of two dataframes, one with node data and one with edge data.
+#' @return A list of two dataframes, one with node data and one with edge data. The node data includes:
+#'
+#' - `id`: vertex ID
+#' - `cluster_size`: number of datapoints in cluster
+#' - `mean_dist_to_medoid`: mean distance to medoid of cluster
+#' - `data`: names of datapoints in cluster
+#' - `patch`: level set ID
+#'
+#' The edge data includes:
+#'
+#' - `source`: vertex ID of edge source
+#' - `target`: vertex ID of edge target
+#' - `weight`: Jaccard index of edge; intersection divided by union
+#' - `overlap_data`: names of datapoints in overlap
+#' - `overlap_size`: number of datapoints overlap
+#'
 #' @export
 #' @examples
 #' data = data.frame(x = sapply(1:100, function(x) cos(x)), y = sapply(1:100, function(x) sin(x)))
@@ -126,7 +141,7 @@ create_bins <- function(data, filtered_data, cover_element_tests) {
 #' @param binning Whether the output dataframe should sort vertices into "bins" or not. Should be true if using clustering, leave false otherwise
 #'
 #' @return A list of two dataframes, one with node data containing bin membership,
-#'  datapoints per cluster, and cluster dispersion, and one with edge data
+#'  datapoints per cluster, and mean distance to the medoid, and one with edge data
 #'  containing sources, targets, and weights representing overlap strength.
 assemble_mapper_object <- function(binclust_data, dists, binning = TRUE) {
 
@@ -166,9 +181,9 @@ assemble_mapper_object <- function(binclust_data, dists, binning = TRUE) {
     nodes = data.frame(
       id = node_ids,
       cluster_size = cluster_size,
-      tightness = cluster_tightness,
+      mean_dist_to_medoid = cluster_tightness,
       data = data_in_cluster,
-      bin = get_bin_vector(binclust_data)
+      patch = get_bin_vector(binclust_data)
     )
 
     return(list(nodes, edges))
@@ -177,7 +192,7 @@ assemble_mapper_object <- function(binclust_data, dists, binning = TRUE) {
     nodes = data.frame(
       id = node_ids,
       cluster_size = cluster_size,
-      tightness = cluster_tightness,
+      mean_dist_to_medoid = cluster_tightness,
       data = data_in_cluster
     )
 
