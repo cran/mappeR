@@ -1,7 +1,7 @@
-2d147b999f8cc9405a6da49191424d78 *DESCRIPTION
+dc799b343701d5d2185cf7176f49d084 *DESCRIPTION
 e21f7e287985fd7fdb334c1a8a21105d *LICENSE
 37ffa95bd2ae56e11d016f7740e3d847 *NAMESPACE
-1a8c78c769cc943b1381147da51a48e6 *NEWS.md
+5977b5807dbcc57aae9574795aaf254e *NEWS.md
 eb2d60b6add8b1973b5a1fe71e30f40f *R/baskin_robbins.R
 dff4fb59c48a8f016d71ecbb3c408b9a *R/cartography_chamber.R
 a3ba70c2b21a28d67cc95dc392edbe5e *R/clusterer_farm.R
@@ -9,7 +9,7 @@ b71d72a15cfb80970abb3c054b065ad4 *R/mappeR-package.R
 663aacb9ef8efbf71dc1f138f22c6ab2 *R/quilting_hut.R
 1db5d5e387adefa198832e8902259f25 *R/stats_factory.R
 32abc33dda63eced3b08ab583e80f242 *R/viewmaster-library.R
-1713e2cf2553168a5d7f411ae896caff *README.md
+6ad2c7df7ebfc291fdab22c5cfce2670 *README.md
 91f87e4a6d804b9156d32409f945e4e3 *man/create_1D_mapper_object.Rd
 8766de6ed4fe9d79d22a68ed27fdbcf6 *man/create_ball_mapper_object.Rd
 b43523909ad9700f36ab90ff1170d8e5 *man/create_balls.Rd
@@ -26,5 +26,5 @@ e27aa32a1b04cc03c8f68ee1accb88ce *man/local_hierarchical_clusterer.Rd
 a167c36c8d2d3e9ccabe6bccaa3eac13 *tests/testthat.R
 78a74921bcab8c9c604b8716fd5e2d73 *tests/testthat/test-binning.R
 026c11098d6b9d13d12335d79a85f692 *tests/testthat/test-clustering.R
-0f68ef4cf06b841e63531ad6c4dc8112 *tests/testthat/test-covering.R
+2d126309f7e62b5a1a6519963c050089 *tests/testthat/test-covering.R
 ecfee87c5afcebde7d3b2eaa8225895d *tests/testthat/test-inputs.R

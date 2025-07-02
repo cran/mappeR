@@ -11,15 +11,15 @@ Authors@R: person("George", "Clare Kennedy", email = "george-clarekennedy@uiowa.
 License: MIT + file LICENSE
 URL: https://github.com/Uiowa-Applied-Topology/mappeR
 BugReports: https://github.com/Uiowa-Applied-Topology/mappeR/issues
-Version: 2.2.0
+Version: 2.2.1
 Encoding: UTF-8
 Imports: fastcluster, stats, utils
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-06-28 17:56:17 UTC; gergill
+Packaged: 2025-07-01 06:24:09 UTC; gergill
 Author: George Clare Kennedy [aut, cre]
 Maintainer: George Clare Kennedy <george-clarekennedy@uiowa.edu>
 Repository: CRAN
-Date/Publication: 2025-06-28 18:10:02 UTC
+Date/Publication: 2025-07-02 09:00:07 UTC
