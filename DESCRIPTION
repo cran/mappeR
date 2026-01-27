@@ -1,6 +1,7 @@
 Package: mappeR
 Type: Package
-Title: Construct and Visualize TDA Mapper Graphs
+Title: Construct Mapper Graphs for Topological and Exploratory Data
+        Analysis
 Description: Topological data analysis (TDA) is a method of data analysis that 
   uses techniques from topology to analyze high-dimensional data. Here we
   implement Mapper, an algorithm from this area developed by Singh, Mémoli and 
@@ -11,15 +12,15 @@ Authors@R: person("George", "Clare Kennedy", email = "george-clarekennedy@uiowa.
 License: MIT + file LICENSE
 URL: https://github.com/Uiowa-Applied-Topology/mappeR
 BugReports: https://github.com/Uiowa-Applied-Topology/mappeR/issues
-Version: 2.3.0
+Version: 2.4.0
 Encoding: UTF-8
 Imports: fastcluster, stats, utils
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-07-27 18:09:11 UTC; gergill
+Packaged: 2026-01-27 07:18:42 UTC; gergill
 Author: George Clare Kennedy [aut, cre]
 Maintainer: George Clare Kennedy <george-clarekennedy@uiowa.edu>
 Repository: CRAN
-Date/Publication: 2025-07-27 18:20:01 UTC
+Date/Publication: 2026-01-27 07:30:10 UTC
